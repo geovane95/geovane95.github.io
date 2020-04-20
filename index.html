@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Welcome to Geovane Jr.'s Heart</title>
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="keywords"
+        content="Personal page of the generalist developer, craziest, enthusiastic and lover of new technologies and innovation. that you will know!" />
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- //Meta tag Keywords -->
+    <!-- Custom-Files -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Bootstrap-Core-CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <!-- Style-CSS -->
+    <!-- font-awesome-icons -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- //font-awesome-icons -->
+    <!-- /Fonts -->
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900"
+        rel="stylesheet">
+    <link
+        href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800"
+        rel="stylesheet">
+    <!-- //Fonts -->
+
+</head>
+
+<body>
+
+    <!-- mian-content -->
+    <div class="main-banner" id="home">
+
+        <!--/banner-->
+        <div class="banner-info">
+            <div class="flags">
+                <img src="images/flags/brazil.png" alt="Select for Portuguese Brazilian langague!" id="flag-brazil"
+                    onclick="loadLanguageBr()">
+                <img src="images/flags/usa.png" alt="Select for English langague!" id="flag-usa"
+                    onclick="loadLanguageEn()">
+                <img src="images/flags/spain.png" alt="Select for Spanish langague!" id="flag-spain"
+                    onclick="loadLanguageEs()">
+            </div>
+            <div class="w3pvt-logo text-center">
+                <h1> <a href="index.html" id="welcome">WELCOME</a></h1>
+            </div>
+            <div class="middile-inner-con">
+                <div class="tab-main mx-auto">
+
+                    <input id="tab1" type="radio" name="tabs" class="w3layouts-sm" checked>
+                    <label for="tab1"><span class="fa fa-home" aria-hidden="true"></span><span
+                            id="menu-home">Home</span></label>
+
+                    <input id="tab2" type="radio" class="w3layouts-sm" name="tabs">
+                    <label for="tab2"><span class="fa fa-users" aria-hidden="true"></span><span
+                            id="menu-about">About</span></label>
+
+                    <input id="tab3" type="radio" class="w3layouts-sm" name="tabs">
+                    <label for="tab3"><span class="fa fa-files-o" aria-hidden="true"></span><span
+                            id="menu-projects">Projects</span></label>
+                    <input id="tab4" type="radio" class="w3layouts-sm" name="tabs">
+                    <label for="tab4"><span class="fa fa-envelope" aria-hidden="true"></span><span
+                            id="menu-contact">Contact</span></label>
+                    <section id="content1" class="inner-w3layouts-wrap">
+                        <img src="images/profile/1.jpg" class="admin img-fluid" alt="mobile-image" id="profile-photo">
+                        <h4 id="hi" title="And I'm not going to fix your air conditioner!">Hi, I'm Geovane Jr. The IT
+                            boy.</h4>
+                        <h2 id="intro">Who am I!</h2>
+                        <p id="first-term">I am passionate about new technologies, innovation and projects that aim to change the life of a community.</p>
+
+                    </section>
+                    <section id="content2" class="inner-w3layouts-wrap">
+                        <h3 class="head-w3ls" id="about-title">What I do</h3>
+                        <p id="about-text">I don't solve your problem, I solve your problem in the best possible way. <br />
+                            Maybe you are already tired of hiring developers, having losses, projects delivered after the deadline, projects outside the initial specifications, lack of visibility in the progress of the project.
+                            Anyway, you search for a solution to your problem and sometimes end up finding new problems.<br />
+                            But I work completely focused so that it doesn't happen, your project will be delivered on time, completely tested, with everything that was negotiated in the proposal, documented and in accordance with most good software development practices, but that doesn't happen just because I'm a great developer, this is because for me you know what is being done at each moment of the project is extremely important. <br />
+                            Having a vision of how your software is getting in the way of development allows it to be created with immense maturity, reducing to less than half the time that would be spent after delivery for any type of correction or development of new features.</p>
+                    </section>
+                    <section id="content3" class="inner-w3layouts-wrap">
+                        <h3 class="head-w3ls">See My Latest Works.</h3>
+                        <div class="row news-grids text-center">
+                            <div class="col-4 gal-img">
+                                <a href="#gal1"><img src="images/g1.jpg" alt="news image" class="img-fluid"></a>
+                                <a href="#gal2"><img src="images/g3.jpg" alt="news image" class="img-fluid"></a>
+
+
+                            </div>
+                            <div class="col-4 gal-img">
+                                <a href="#gal3"><img src="images/g2.jpg" alt="news image" class="img-fluid"></a>
+                                <a href="#gal4"><img src="images/g4.jpg" alt="news image" class="img-fluid"></a>
+                            </div>
+                            <div class="col-4 gal-img">
+
+
+                                <a href="#gal5"><img src="images/g5.jpg" alt="news image" class="img-fluid"></a>
+                                <a href="#gal6"><img src="images/g6.jpg" alt="news image" class="img-fluid"></a>
+                            </div>
+                            <!-- popup-->
+
+                        </div>
+                    </section>
+                    <section id="content4" class="inner-w3layouts-wrap">
+                        <h3 class="head-w3ls"> Get In Touch</h3>
+                        <form name="contact-form" class="contact-form" method="post" action="#">
+                            <div class="row">
+                                <div class="col-6 con-gd">
+                                    <div class="form-group">
+                                        <p>Name *</p>
+                                        <input type="text" class="form-control" id="name" placeholder="" name="name"
+                                            required="">
+                                    </div>
+                                    <div class="form-group">
+                                        <p>Email *</p>
+                                        <input type="email" class="form-control" id="email" placeholder="" name="email"
+                                            required="">
+                                    </div>
+
+                                </div>
+                                <div class="col-6 con-gd">
+                                    <div class="form-group">
+                                        <p>Send a Message *</p>
+                                        <textarea name="Message" placeholder="" required=""></textarea>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="form-group">
+
+                                <button type="submit" class="btn btn-default">Submit</button>
+                            </div>
+
+                        </form>
+                        <ul class="w3pvt_social_list list-unstyled mt-4">
+                            <li>
+                                <a href="#" class="w3layouts-icon">
+                                    <span class="fa fa-facebook-f"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="w3layouts-icon">
+                                    <span class="fa fa-twitter"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="w3layouts-icon">
+                                    <span class="fa fa-dribbble"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="w3layouts-icon">
+                                    <span class="fa fa-google-plus"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+
+                </div>
+                <!--// banner-inner -->
+            </div>
+        </div>
+        <div class="text-center pb-3">
+            <p>©2020 Geovane Jr.<br />Nenhum Direito reservado | Pois eu não quis pagar pra usar meu próprio nome XD.
+            </p>
+
+        </div>
+    </div>
+    <!--//main-content-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            loadLanguage(navigator.language);
+
+            let image = 1;
+            setInterval(function () {
+                if (image < 10) {
+                    image += 1;
+                } else {
+                    image = 1;
+                }
+                $("#profile-photo").attr("class", "rotate admin img-fluid");
+                sleeprotate(500);
+                sleepchange(500,image);
+            }, 10000)
+        });
+        function sleeprotate(ms) {
+            return setTimeout(function(){
+                $("#profile-photo").attr("class", "admin img-fluid");
+            },ms);
+        }
+        function sleepchange(ms,image) {
+            return setTimeout(function(){
+                $("#profile-photo").attr("src", "images/profile/" + image + ".jpg");
+            },ms);
+        }
+        function loadLanguage(language) {
+            switch (language) {
+                case "pt-BR":
+                    loadLanguageBr();
+                    break;
+                case "en":
+                    loadLanguageEn();
+                    break;
+                case "es":
+                    loadLanguageEs();
+                    break;
+            }
+        }
+        function loadLanguageBr() {
+            $("#welcome").html("Bem Vindo!");
+            $("#menu-home").html("Inicío");
+            $("#menu-about").html("Sobre");
+            $("#menu-projects").html("Projetos");
+            $("#menu-contact").html("Contato");
+            $("#hi").html("Olá, Eu sou Geovane Jr.<br/>O menino da TI!");
+            $("#hi").attr("title", "E eu não vou arrumar seu ar condicionado.");
+            $("#intro").html("Quem sou eu!");
+            $("#first-term").html("Eu sou um apaixonado por novas tecnologias, inovação e projetos que visam mudar a vida de uma comunidade.");
+            $("#about-title").html("O que eu faço!");
+            $("#about-text").html("Eu não apenas resolvo seu problema, eu resolvo seu problema da melhor maneira possível. \nTalvez você já esteja cansado(a) de contratar desenvolvedores, ter prejuizos, projetos entregues fora do prazo, projetos fora das especificações iniciais, falta de visibilidade no andamento do projeto. Enfim, você busca uma solução para o seu problema e acaba por vezes encontrando novos problemas.\n" +
+                "Mas eu trabalho completamente focado para que isso não aconteça, o seu projeto será entregue no prazo estipulado, completamente testado, com tudo o que foi negociado na proposta, documentado e de acordo com a maioria das boas práticas de desenvolvimento de software, mas isso não aconteça apenas porque eu sou um ótimo desenvolvedor, isso ocorre pois para mim você saber o que está sendo feito em cada momento do projeto é extremamente importante. \nVocê ter a visão de como seu software está ficando em meio ao desenvolvimente permite que o mesmo seja criado com uma maturidade imensa, reduzindo para menos da metade o tempo que seria gasto após a entrega para qualquer tipo de correção ou desenvolvimento de novas caracteristicas.");
+        }
+        function loadLanguageEn() {
+            $("#welcome").html("Welcome!");
+            $("#menu-home").html("Home");
+            $("#menu-about").html("About");
+            $("#menu-projects").html("Projects");
+            $("#menu-contact").html("Contact");
+            $("#hi").html("Hi, I'm Geovane Jr.<br/>The IT boy!");
+            $("#hi").attr("title", "And I'm not going to fix your air conditioner!");
+            $("#intro").html("Who am I!");
+            $("#first-term").html("I am passionate about new technologies, innovation and projects that aim to change the life of a community.");
+            $("#about-title").html("What I do!");
+            $("#about-text").html("I don't only solve your problem, I solve your problem in the best possible way. \nMaybe you are already tired of hiring developers, having losses, projects delivered after the deadline, projects outside the initial specifications, lack of visibility in the progress of the project. Anyway, you search for a solution to your problem and sometimes end up finding new problems.\n" +
+                "But I work completely focused so that it doesn't happen, your project will be delivered on time, completely tested, with everything that was negotiated in the proposal, documented and in accordance with most good software development practices, but that doesn't happen just because I'm a great developer, this is because for me you know what is being done at each moment of the project is extremely important. \nHaving a vision of how your software is getting in the way of development allows it to be created with immense maturity, reducing to less than half the time that would be spent after delivery for any type of correction or development of new features.");
+        }
+        function loadLanguageEs() {
+            $("#welcome").html("Bienvenido!");
+            $("#menu-home").html("Inicio");
+            $("#menu-about").html("Acerca de");
+            $("#menu-projects").html("Proyectos");
+            $("#menu-contact").html("Contacto");
+            $("#hi").html("Hola, soy Geovane Jr.<br/>El chico de TI!");
+            $("#hi").attr("title", "¡Y no voy a arreglar su aire acondicionado!");
+            $("#intro").html("¡Quien soy yo!");
+            $("#first-term").html("Me apasionan las nuevas tecnologías, la innovación y los proyectos que tienen como objetivo cambiar la vida de una comunidad.");
+            $("#about-title").html("¡Qué hago!");
+            $("#about-text").html("No solo resuelvo tu problema, lo resuelvo tu problema de la mejor manera posible. \nTal vez ya esté cansado de contratar desarrolladores, tener pérdidas, proyectos entregados después de la fecha límite, proyectos fuera de las especificaciones iniciales, falta de visibilidad en el progreso del proyecto. De todos modos, busca una solución a su problema y, a veces, termina encontrando nuevos problemas. \n" +
+                "Pero trabajo completamente enfocado para que no suceda, su proyecto se entregará a tiempo, completamente probado, con todo lo que se negoció en la propuesta, documentado y de acuerdo con la mayoría de las buenas prácticas de desarrollo de software, pero eso no sucede solo porque soy un gran desarrollador, esto es porque para mí sabes que lo que se está haciendo en cada momento del proyecto es extremadamente importante. \nTener una visión de cómo su software se interpone en el camino del desarrollo permite que se cree con una madurez inmensa, reduciendo a menos de la mitad del tiempo que se gastaría después de la entrega para cualquier tipo de corrección o desarrollo de nuevas características.");
+        }
+    </script>
+</body>
+
+</html>
